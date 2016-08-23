@@ -1,0 +1,588 @@
+#top{
+  position: fixed;
+  z-index: 20;
+  .px2rem(height, 90rem);
+}
+.deal-common {
+  .px2rem(width, 28rem);
+  .px2rem(height, 22rem);
+  background: url("../../assest/images/zhuanshi.png") no-repeat;
+  background-size: cover;
+  display: inline-block;
+  .px2rem(margin-right, 5rem);
+}
+#add{
+  .px2rem(width, 60rem);
+  .px2rem(height, 60rem);
+  background: url("../../assest/images/add.png") no-repeat;
+  background-size: cover;
+ position: absolute;
+  left: 0;
+  top:0;
+  z-index: 200;
+}
+.common-bg {
+  background: #fff;
+  border-bottom: 1px solid #E3E3E5;
+}
+
+
+.deal-wrap {
+  /*.px2rem(margin-top, 160rem);*/
+
+  .deal-title {
+    border-bottom: 1px solid #E3E3E5;
+    background: #fff;
+    width:10rem;
+    position: fixed;
+    .px2rem(top, 90rem);
+    z-index: 20;
+    .px2rem(height,102rem);
+    .px2rem(padding-left,10rem);
+    .px2rem(padding-right,10rem);
+    text-align: center;
+    .px2rem(line-height,102rem);
+    .ub {
+      .px2rem(line-height, 102rem);
+      .ub-f1 {
+        .px4dpr(font-size, 30px);
+        a {
+          color: #aeaeae;
+          display: block;
+          i {
+            .px2rem(width, 60rem);
+            .px2rem(height, 60rem);
+            display: inline-block;
+            float: left;
+            .px2rem(margin-top, 20rem);
+            .px2rem(margin-left, 10rem);
+            .px2rem(margin-right, -10rem);
+            background: url("../../assest/images/icon%20(2).png") no-repeat;
+            background-size: cover;
+            opacity: 0.5;
+          }
+          i.qiugou {
+            background: url("../../assest/images/icon%20(3)%20.png") no-repeat;
+            background-size: cover;
+          }
+          i.duihuan {
+            background: url("../../assest/images/icon%20(1).png") no-repeat;
+            background-size: cover;
+          }
+        }
+      }
+      .active {
+        a {
+          i {
+            opacity: 1;
+          }
+          span {
+            color: #000333;
+          }
+        }
+
+      }
+    }
+  }
+  .deal-duihuan{
+    ul{
+      li.all{
+        width: 5rem;
+        margin-right:0;
+      }
+      li.active{
+        color: #E64545;
+      }
+      li.duihuan{
+        margin-left:0;
+        .duihuan-juli{
+          .px2rem(margin-left, 215rem);
+        }
+      }
+    }
+
+  }
+  .deal-title2 {
+    .px2rem(top, 192rem);
+    z-index: 11;
+    background-color: #fcfdff;
+    border:1px solid #d0d2d4;
+    position: fixed;
+    .px4dpr(font-size, 24px);
+    width:10rem;
+    .px2rem(height, 70rem);
+    .px2rem(line-height, 70rem);
+    li {
+      float: left;
+      width:3.3rem;
+      text-align: center;
+      .px2rem(height, 70rem);
+      .sort{
+        display: inline-block;
+        .px2rem(width,14rem);
+        .px2rem(height,25rem);
+        vertical-align: middle;
+        background: url("../../assest/images/sort/default.png") no-repeat;
+        background-size: cover;
+      }
+      .up{
+        background: url("../../assest/images/sort/up.png") no-repeat;
+        background-size: cover;
+      }
+      .down{
+        background: url("../../assest/images/sort/down.png") no-repeat;
+        background-size: cover;
+      }
+    }
+    li.current{
+      color: #e64545;
+    }
+  }
+
+  .deal-con {
+      width:10rem;
+    overflow: hidden;
+    .px2rem(margin-top, 160rem);
+      .ub {
+        float: left;
+        .px2rem(padding-top, 37rem);
+        .px2rem(height, 94rem);
+        .px2rem(width, 732rem);
+        .common-bg;
+        color: #ffa619;
+        .px2rem(padding-left, 18rem);
+        .px2rem(margin-right, 18rem);
+        .deal-con-l {
+          p.count{
+            .px2rem(margin-left, -50rem);
+            .px2rem(margin-top, 10rem);
+          }
+          color: #ffa619;
+          .px4dpr(font-size, 30px);
+          .px2rem(width, 230rem);
+          p {
+            .px2rem(height, 30rem);
+            margin-bottom: 10px;
+            img {
+              .px2rem(margin-top, 8rem);
+              .px2rem(margin-right, 5rem);
+              float: left;
+              .px2rem(width, 30rem);
+              .px2rem(height, 24rem);
+            }
+          }
+          p.con {
+            .px4dpr(font-size, 22px);
+            .px2rem(margin-left, 35rem);
+            color: #444444;
+          }
+        }
+        .deal-con-m {
+          .px2rem(width, 330rem);
+          color: #434343;
+          p {
+            .px4dpr(font-size, 30px);
+            span {
+              color: #e64545;
+            }
+          }
+          p.price {
+            .px4dpr(font-size, 22px);
+            em.time2{
+              margin-left:0;
+              /*.px2rem(margin-left, 140rem);*/
+              /*.px2rem(margin-top, -26rem);*/
+            }
+          }
+
+          .time {
+            color: #b2b2b2;
+            .px2rem(margin-top, -50rem);
+            .px2rem(margin-left, 230rem);
+            .px4dpr(font-size, 22px);
+          }
+        }
+        .add{
+          .deal-add{
+            .px2rem(margin-right, 20rem);
+          }
+          .a{
+            width:50px;
+            height:50px;
+            background: red;
+            position: absolute;
+            right:10px;
+            z-index: 20;
+            -webkit-animation: gogo 2s forwards 0s 1 linear;
+
+          }
+          /*@-webkit-keyframes gogo {
+            0% { top: 20px; right: 30px;}
+            30%{ top: 300px; right: 450px;}
+            100% { top: 850px; right: 650px; }
+          }*/
+          @-webkit-keyframes gogo {
+            0% { top: 20px; right: 30px;}
+            30%{ top: 300px; right: 450px;}
+            100% { top: 850px; right: 650px; }
+          }
+        }
+        .add a {
+          .px2rem(width, 60rem);
+          .px2rem(height, 60rem);
+          background: url("../../assest/images/add.png") no-repeat;
+          background-size: cover;
+          display: inline-block;
+          .px2rem(margin-right, 10rem);
+        }
+        a.active {
+          background: url("../../assest/images/add2.png") no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+  .deal-car-con{
+    display: none;
+    position: fixed;
+    .px2rem(bottom, 100rem);
+    overflow: hidden;
+    z-index: 18;
+    .bg{
+      background: #000;
+      opacity: 0.5;
+      .px2rem(height, 810rem);
+      width:10rem;
+
+    }
+    .car-clear{
+      .px2rem(height, 80rem);
+      .px2rem(line-height, 80rem);
+      .px2rem(padding-left, 25rem);
+      .px2rem(padding-right, 25rem);
+      background: #ececee;
+      border: 1px solid #d8d8d8;
+      h2{
+        display: inline;
+      }
+      h2:before{
+        content: '';
+        background: #3b84ed;
+        .px2rem(width, 6rem);
+        .px2rem(height, 33rem);
+        display: inline-block;
+        float: left;
+        .px2rem(margin-top, 25rem);
+        .px2rem(margin-right, 10rem);
+      }
+      span{
+        float: right;
+        img{
+          .px2rem(margin-top, -5rem);
+          .px2rem(margin-right, 5rem);
+        }
+      }
+    }
+    .car-con{
+      overflow: auto;
+      .px2rem(max-height, 810rem);
+      .deal-wupin{
+        margin:0;
+        .px2rem(height, 131rem);
+        .ub{
+          background: #F7F7F7;
+        }
+        .deal-con-m {
+          p.deal-con-m-price {
+            color: #e64545;
+            float: left;
+            .px4dpr(font-size, 20px);
+            span {
+              .px4dpr(font-size, 32px);
+            }
+          }
+          p.guoqi{
+            float: left;
+            .px2rem(margin-left, 65rem);
+          }
+          .px2rem(line-height, 64rem);
+        }
+        .add a.wupin {
+          background: url("../../assest/images/close%20(1).png") no-repeat;
+          background-size: cover;
+        }
+      }
+      .deal-gray {
+        /*display: none;
+        z-index: 15;
+        .px2rem(bottom, 275rem);*/
+        .ub {
+          .ub-f1 {
+            p, p span {
+              color: #BCBCBC;
+            }
+          }
+          .add a.gray {
+            background: url("../../assest/images/close%20(2).png") no-repeat;
+            background-size: cover;
+
+          }
+        }
+      }
+      .deal-jiaoyi{
+        .ub {
+          .ub-f1 {
+            p.deal-con-m-price {
+              .px4dpr(font-size, 32px);
+              em.red {
+                color: #BCBCBC;
+                .px4dpr(font-size, 32px);
+              }
+            }
+          }
+
+        }
+      }
+    }
+}
+  .shade{
+    display: none;
+    position: fixed;
+    .px2rem(bottom, 100rem);
+    overflow: hidden;
+    z-index: 17;
+    background: rgba(0,0,0,0);
+    .px2rem(height, 927rem);
+    width:10rem;
+  }
+  .deal-car {
+    border-top: 1px solid #d8d8d8;
+    position: fixed;
+
+    .px2rem(bottom, 103rem);
+    .px2rem(height, 110rem);
+    width:10rem;
+    background: #fff;
+    display: none;
+    .car {
+      .px2rem(height, 70rem);
+      .px2rem(width, 132rem);
+      .px2rem(margin-top, 17rem);
+      border-right: 1px solid #D7D7D7;
+      position: relative;
+      float: left;
+    }
+    span {
+      .px2rem(width, 81rem);
+      .px2rem(height, 60rem);
+      background: url("../../assest/images/shopcar%20(1).png") no-repeat;
+      background-size: cover;
+      float: left;
+      .px2rem(margin-top, 10rem);
+      .px2rem(margin-left, 20rem);
+    }
+    i {
+      .px2rem(width, 40rem);
+      .px2rem(height, 40rem);
+      .px2rem(line-height, 35rem);
+      background: url("../../assest/images/shopcar%20(2).png") no-repeat;
+      background-size: cover;
+      position: absolute;
+      .px2rem(left, 70rem);
+      z-index: 2;
+      color: #fff;
+      text-align: center;
+    }
+    .total {
+      p {
+        color: #e64545;
+        .px4dpr(font-size, 32px);
+        .px2rem(padding-left, 30rem);
+        .px2rem(padding-top, 27rem);
+        .px2rem(width, 85rem);
+        float: left;
+      }
+      .free{
+        .px4dpr(font-size, 22px);
+        .px2rem(margin-top, 15rem);
+      }
+      .total-con {
+        float: left;
+        .px2rem(width, 270rem);
+        .px4dpr(font-size, 26px);
+        .px2rem(margin-top, 17rem);
+        font-weight: bold;
+        color: #ffa619;
+        .zs{
+          .px2rem(margin-top, -5rem);
+        }
+        em {
+          .px2rem(margin-left, 30rem);
+          .px4dpr(font-size, 32px);
+          font-weight: bold;
+          color: #e64545;
+        }
+        img{
+          .px2rem(width, 30rem);
+          .px2rem(height, 24rem);
+          /*float: left;
+          .px2rem(margin-right, 5rem);
+          .px2rem(margin-top, 18rem);*/
+        }
+      }
+    }
+    .close {
+      a {
+        color: #fff;
+      }
+      float: right;
+      .px2rem(width, 186rem);
+      .px2rem(height, 110rem);
+      .px2rem(line-height, 110rem);
+      background: #e64545;
+      .px4dpr(font-size, 32px);
+      text-align: center;
+    }
+  }
+  .deal-con-duihuan {
+    width:10rem;
+    .duihuan {
+      background: #fff;
+      .px2rem(padding-top, 30rem);
+      .ub {
+        border: 0;
+        .px2rem(height, 210rem);
+        border-bottom: 1px solid #E3E3E5;
+        .shuju{
+          .px2rem(width, 550rem);
+        }
+        .pic {
+          .px2rem(height, 170rem);
+          .px2rem(width, 170rem);
+          img {
+            display: block;
+            .px2rem(height, 170rem);
+            .px2rem(width, 170rem);
+            .px2rem(margin-left, 10rem);
+          }
+        }
+
+      }
+      .deal-con-m {
+        .px2rem(margin-left, -105rem);
+        .px2rem(width, 380rem);
+        h2 {
+          color: #222222;
+          .px2rem(height, 50rem);
+          .px4dpr(font-size, 30px);
+          .px2rem(padding-right, 30rem);
+        }
+        .xiangqing {
+          color: #8c8c8c;
+          .px2rem(height, 60rem);
+          .px4dpr(font-size, 26px);
+        }
+        .ub {
+          padding: 0;
+          border: 0;
+          background: none;
+          .px2rem(margin-top, 60rem);
+
+          .count {
+            img{
+              float: left;
+              .px2rem(margin-right, 5rem);
+              .px2rem(margin-top, 8rem);
+              .px2rem(width, 30rem);
+              .px2rem(height, 24rem);
+            }
+            color: #ff9600;
+            .px4dpr(font-size, 32px);
+            float: left;
+          }
+          .kucun {
+            float: left;
+            .px4dpr(font-size, 24px);
+            .px2rem(margin-top, 5rem);
+            color: #929393;
+            em {
+              color: #515354;
+            }
+          }
+          .btn {
+            float: left;
+            .px2rem(width, 131rem);
+            .px2rem(height, 56rem);
+            .px2rem(line-height, 56rem);
+            border-radius: 5px;
+            background: #e64545;
+            .px2rem(margin-top, -10rem);
+            .px2rem(margin-right, 40rem);
+            text-align: center;
+            .px4dpr(font-size, 26px);
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .common-deal{
+    .ub {
+      .ub-f1 {
+        p.deal-con-m-price {
+          color: #e64545;
+          em.red {
+            color: #e64545;
+            .px4dpr(font-size, 32px);
+          }
+        }
+        .num{
+          color: #ffa619;
+        }
+      }
+
+    }
+  }
+  .deal-qiugou{
+    .common-deal;
+
+   }
+  .deal-gray{
+    .ub {
+      .ub-f1 {
+        p.deal-con-m-price {
+          color: #e64545;
+          em.red {
+            color: #BCBCBC;
+            .px4dpr(font-size, 32px);
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+.end {
+  background: #3b84ed;
+  .px4dpr(font-size, 30px);
+  text-align: center;
+  .px2rem(height, 103rem);
+  .px2rem(line-height, 103rem);
+  /*height: 103px;
+  line-height: 103px;*/
+  position: fixed;
+  .px2rem(width, 750rem);
+  left: 50%;
+  margin-left: -5rem;
+  bottom: 0;
+  a {
+    color: #fff;
+    display: block;
+  }
+}
+
+
+
+
+
