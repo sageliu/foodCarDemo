@@ -422,8 +422,14 @@ a {
 [data-dpr="3"] .hasHead {
   top: 135px;
 }
-.hasFoot {
+[data-dpr="1"] .hasFoot {
+  bottom: 49px;
+}
+[data-dpr="2"] .hasFoot {
   bottom: 98px;
+}
+[data-dpr="3"] .hasFoot {
+  bottom: 147px;
 }
 .panel {
   left: 50%;
